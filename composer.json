@@ -1,0 +1,11 @@
+{
+  "name":"kanti/kache",
+  "autoload":{
+    "psr-4":{
+      "Kanti\\Kache\\":"src"
+    }
+  },
+  "require":{
+    "php": ">=5.3"
+  }
+}
