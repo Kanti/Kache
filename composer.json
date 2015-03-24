@@ -1,11 +1,25 @@
 {
-  "name":"kanti/kache",
-  "autoload":{
-    "psr-4":{
-      "Kanti\\Kache\\":"src"
+  "name": "kanti/kache",
+  "license": "GPL-2.0",
+  "authors": [
+    {
+      "name": "Kanti",
+      "email": "git@kanti.de",
+      "homepage": "https://kanti.de",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "forum": "https://github.com/Kanti/Kache/issues",
+    "issues": "https://github.com/Kanti/Kache/issues",
+    "source": "https://github.com/Kanti/Kache"
+  },
+  "autoload": {
+    "psr-4": {
+      "Kanti\\Kache\\": "src"
     }
   },
-  "require":{
+  "require": {
     "php": ">=5.3"
   }
 }
