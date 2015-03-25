@@ -22,7 +22,7 @@ class Cache
 
     public function __construct($identifier, $first = 60, $second = 43200)
     {
-        $this->identifier = $identifier;
+        $this->identifier = static::$path . $identifier;
         static::$path = rtrim(static::$path, "/") . "/";
         if (static::$path == '/') {
             static::$path = '';
